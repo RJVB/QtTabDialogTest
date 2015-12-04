@@ -1,0 +1,26 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+
+[Defines And Includes][Compiler]
+Name=GCC
+Path=gcc
+Type=GCC
+
+[QMake_Builder]
+Build_Folder=/Volumes/Debian/Users/bertin/work/src/new/Qt/tabdialog
+Build_Type=2
+Extra_Arguments=
+Install_Prefix=
+QMake_Binary=/opt/local/bin/qmake-qt5
+
+[QMake_Builder][/Volumes/Debian/Users/bertin/work/src/new/Qt/tabdialog]
+Build_Type=2
+Extra_Arguments=
+Install_Prefix=
+QMake_Binary=/opt/local/bin/qmake-qt5
+
+[QMake_Builder][/Volumes/Debian/Users/bertin/work/src/new/Qt/tabdialog/build]
+Build_Type=0
+Extra_Arguments=
+Install_Prefix=
+QMake_Binary=/opt/local/bin/qmake-qt4
