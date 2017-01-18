@@ -1,7 +1,5 @@
 QT += widgets
 CONFIG += release
-QMAKE_CXXFLAGS_RELEASE -= -pipe -O2
-QMAKE_CXXFLAGS_RELEASE += -g -O3 -march=native
 
 HEADERS       = tabdialog.h
 SOURCES       = main.cpp \

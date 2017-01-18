@@ -1,10 +1,24 @@
 [Buildset]
 BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
 
+[CustomDefinesAndIncludes][ProjectPath0]
+Defines=\x00\x00\x00\x00
+Includes=\x00\x00\x00\x00
+Path=.
+
 [Defines And Includes][Compiler]
-Name=GCC
-Path=gcc
-Type=GCC
+Name=Clang
+Path=clang
+Type=Clang
+
+[MakeBuilder]
+Additional Options=--nice 10 -w VERBOSE=1
+Default Make Environment Profile=KDE/MacPorts
+Make Binary=wmake
+Number Of Jobs=1
+
+[Project]
+VersionControlSupport=kdevgit
 
 [QMake_Builder]
 Build_Folder=/Volumes/Debian/Users/bertin/work/src/new/Qt/tabdialog
